@@ -1,0 +1,19 @@
+/*
+Crie uma função que recebe um valor inteiro e retorne verdadeiro se
+for ímpar ou falso se for par.
+*/
+
+let valor = Number(prompt("Digite um número!"));
+
+function conferir(valores) {
+    if (valor % 2 === 0) {
+        console.log("Esse valor é verdadeiro e par.");
+    } else {
+        console.log("Esse valor é falso e ímpar.");
+    }
+}
+
+conferir(valor);
+
+
+
