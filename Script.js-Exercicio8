@@ -1,0 +1,19 @@
+/*
+Crie uma função chamada mostrarDobro(num), que recebe um
+parâmetro sendo um número inteiro. Esta função será chamada ao
+abrir a página e mostrará um alerta com o resultado. Exemplo: “O
+dobro do número 5 é 10.”
+*/
+
+function mostrarDobro(num) {
+    // Calcula o dobro do número
+    let resultado = num * 2;
+
+    // Exibe um alerta com o resultado
+    alert(`O dobro do número ${num} é ${resultado}.`);
+}
+
+// Chama a função ao abrir a página com um exemplo (número 5)
+window.onload = function () {
+    mostrarDobro(5);
+};
